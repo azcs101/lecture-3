@@ -1,0 +1,141 @@
+* {
+	padding: 0;
+	margin: 0;
+	color: inherit;
+}
+
+body {
+	color: #00194C;
+	background: #F7F8FA;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+p {
+	margin: 10px 0;
+}
+
+.main {
+	flex: 1;
+}
+
+.header {
+	width: 100%;
+	padding: 35px 0;
+	background: #C0535F;
+	color: white;
+	margin-bottom: 35px;
+}
+
+.footer {
+	text-align: center;
+	padding: 15px;
+	color: #6A8099;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.row {
+	display: flex;
+}
+
+
+.col-1 {
+	flex: 1;
+}
+
+.col-2 {
+	flex: 2;
+}
+
+.card {
+	background: white;
+	margin: 5px;
+	padding: 20px;
+}
+
+.input-text {
+	width: 100%;
+	padding: 10px 0;
+	border: 0px;
+	outline: 0;
+	border-bottom: 1px solid #F7F8FA;
+}
+
+.input-text:focus {
+	border-bottom-color: #C0535F;
+}
+
+.input-checkbox .rep {
+	background: #C0535F;
+	display: inline-block;
+	padding: 10px;
+	color: transparent;
+	font-size: 1.5em;
+	text-align: center
+}
+
+.input-checkbox input {
+	display: none;
+}
+
+.input-checkbox input:checked ~ .rep {
+	color: white;
+}
+
+.input-group {
+	margin: 10px 0;
+}
+
+.stats {
+	list-style: none;
+}
+
+.stats li {
+	margin: 10px 0;
+}
+
+.stats-image, .stats-content {
+	display: inline-block;
+}
+
+.stats-content {
+	margin-left: 5px;
+}
+
+.stats-image {
+	width: 10%;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.btn-alternate {
+	background: #C0535F;
+	color: white;
+	border: 0px;
+	padding: 10px;
+}
+
+.mr-10 {
+	margin-right: 10px;
+}
+
+.table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.table th {
+	text-align: left;
+	border-bottom: 1px solid #F7F8FA;
+}
+
+.table th, .table td {
+	padding: 10px 0;
+}

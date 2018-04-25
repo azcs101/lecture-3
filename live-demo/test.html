@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<h1>Welcome, Gasim!</h1>
+			<p>Welcome to control panel</p>
+		</div>
+	</header>
+	<main class="main">
+		<div class="container">
+			<div class="row">
+				<section class="col-2 card">
+					<h2>My profile</h2>
+					<p>Edit my profile</p>
+					<form>
+						<div class="row input-group">
+							<div class="col-1">
+								<input class="input-text" type="email" placeholder="enter email here">	
+							</div>
+						</div>
+
+						<div class="row input-group">
+							<div class="col-1 mr-10">
+								<input class="input-text" type="tel" placeholder="(012) 456-23-23">	
+							</div>
+							<div class="col-1">
+								<input class="input-text" type="text" placeholder="ZIP">
+							</div>
+						</div>
+						
+						<div class="row input-group">
+							<div class="col-1">
+								<div class="input-checkbox">
+									<label>
+										<input type="checkbox" value="1">
+										<div class="rep">✓</div>
+										SMS Alert
+									</label>
+								</div>
+							</div>
+							<div class="col-1 text-right">
+								<button type="submit" class="btn-alternate">Save changes</button>
+							</div>
+						</div>
+					</form>
+				</section>
+				<section class="col-1 card">
+					<h2>November stats</h2>
+					<p>View user stats</p>
+					<ul class="stats">
+						<li>
+							<img class="stats-image" src="growth.svg" alt="Customer Growth">
+							<div class="stats-content">
+								<h3 class="stats-value">2,345,678</h3>
+								<span class="stats-label">Customer Growth</span>
+							</div>
+						</li>
+						<li>
+							<img class="stats-image" src="customer.svg" alt="Active Users">
+							<div class="stats-content">
+								<h3 class="stats-value">4,000,000</h3>
+								<span class="stats-label">Active Users</span>
+							</div>
+						</li>
+						<li>
+							<img class="stats-image" src="sales.svg" alt="Sales">
+							<div class="stats-content">
+								<h3 class="stats-value">$35,420</h3>
+								<span class="stats-label">Sales</span>
+							</div>
+						</li>
+					</ul>
+				</section>
+			</div>
+			<div class="row">
+				<section class="col-1 card">
+					<h2>Balance</h2>
+					<table class="table">
+						<thead>
+							<tr>
+								<th>Date</th>
+								<th>Details</th>
+								<th>Amount</th>
+								<th>Balance</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>04/24</td>
+								<td>Uber</td>
+								<td>-$4</td>
+								<td>$386.0</td>
+							</tr>
+							<tr>
+								<td>04/23</td>
+								<td>Coffee</td>
+								<td>-$10.00</td>
+								<td>$390.0</td>
+							</tr>
+							<tr>
+								<td>04/22</td>
+								<td>Monthly Payment</td>
+								<td>$350.0</td>
+								<td>$400.0</td>
+							</tr>
+						</tbody>
+					</table>
+				</section>
+			</div>
+		</div>
+	</main>
+	<footer class="footer">
+		<small>(c) 2018. All rights reserved.</small>
+	</footer>
+</body>
+</html>
